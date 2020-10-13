@@ -13,12 +13,12 @@
 
 ### Firewall
 ```
-set firewall name WAN-LOCAL rule 10 description "allow wireguard traffic"
-set firewall name WAN-LOCAL rule 10 action accept
-set firewall name WAN-LOCAL rule 10 log enable
-set firewall name WAN-LOCAL rule 10 destination port 51820
-set firewall name WAN-LOCAL rule 10 protocol udp
-set firewall name WAN-LOCAL rule 10 state new enable
+set firewall name WAN-LAN rule 10 description "allow wireguard traffic"
+set firewall name WAN-LAN rule 10 action accept
+set firewall name WAN-LAN rule 10 log enable
+set firewall name WAN-LAN rule 10 destination port 51820
+set firewall name WAN-LAN rule 10 protocol udp
+set firewall name WAN-LAN rule 10 state new enable
 
 ```
 
